@@ -983,6 +983,10 @@ body {
     padding: 0 20px;
   }
   
+  .nav-phone {
+    display: none;
+  }
+  
   .hero {
     flex-direction: column;
     padding: 60px 20px;
@@ -1007,6 +1011,24 @@ body {
     height: 100px;
   }
   
+  .sweets-collage {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .sweet-card-vintage {
+    padding: 15px;
+  }
+  
+  .card-image-v img {
+    height: 180px;
+  }
+  
+  .namkeens-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
   .about-collage {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -1024,13 +1046,27 @@ body {
     justify-content: center;
   }
   
+  .visit-cards {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
   .footer-content-v {
     grid-template-columns: 1fr;
     text-align: center;
+    gap: 30px;
   }
   
-  .namkeens-grid {
-    gap: 20px;
+  .footer-stamp {
+    margin: 0 auto;
+  }
+  
+  .footer-links-v {
+    justify-content: center;
+  }
+  
+  .footer-contact-v {
+    text-align: center;
   }
   
   .sweets-section,
@@ -1038,5 +1074,29 @@ body {
   .about-section,
   .visit-section {
     padding: 80px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sweets-collage {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .namkeens-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .hero-headline {
+    font-size: 2rem;
+  }
+  
+  .section-title-v {
+    font-size: 1.5rem;
+  }
+  
+  .card-price-v {
+    font-size: 1.2rem;
   }
 }
