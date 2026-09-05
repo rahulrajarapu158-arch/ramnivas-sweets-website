@@ -1002,19 +1002,21 @@ body {
   }
   
   .hero-right {
-    height: 350px;
+    height: auto;
     max-width: 100%;
+    min-height: 300px;
   }
   
   .collage-stack {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 15px;
+    padding: 20px 0;
   }
   
   .polaroid {
@@ -1027,8 +1029,8 @@ body {
   }
   
   .polaroid img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   
   .sweets-collage {
