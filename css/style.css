@@ -992,51 +992,23 @@ body {
     padding: 60px 20px;
     text-align: center;
     overflow: visible;
-    min-height: auto;
-    height: auto;
   }
-  
-  .hero-desc {
-    margin: 0 auto 35px;
-  }
-  
-  .hero-actions {
+
+  .hero-right {
+    height: 320px;
+    max-width: 100%;
+    overflow: visible;
+    display: flex;
+    align-items: center;
     justify-content: center;
   }
-  
-  .hero-right {
-    height: auto;
-    max-width: 100%;
-    min-height: 0;
-    overflow: visible;
-  }
-  
+
   .collage-stack {
     position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 20px 0;
-    overflow: visible;
-  }
-  
-  .polaroid {
-    position: relative;
-    top: auto !important;
-    left: auto !important;
-    right: auto !important;
-    bottom: auto !important;
-    transform: none !important;
-    padding: 10px 10px 30px;
-  }
-  
-  .polaroid img {
-    width: 70px;
-    height: 70px;
+    width: 400px;
+    height: 450px;
+    transform: scale(0.7);
+    transform-origin: top center;
   }
   
   .sweets-collage {
