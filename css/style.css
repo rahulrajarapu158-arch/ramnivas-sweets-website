@@ -441,6 +441,13 @@ body {
   z-index: 1;
 }
 
+.polaroid-4 {
+  bottom: -120px;
+  left: 120px;
+  transform: rotate(4deg);
+  z-index: 4;
+}
+
 /* ============================ SECTION HEADERS ============================ */
 .section-header-vintage {
   display: flex;
